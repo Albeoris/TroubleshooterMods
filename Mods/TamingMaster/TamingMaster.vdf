@@ -1,0 +1,11 @@
+"workshopitem"
+{
+	"appid"		"470310"
+	"publishedfileid"		"3449314301"
+	"contentfolder"		"C:\Git\TroubleshooterMods\Mods\TamingMaster\Content"
+	"previewfile"		"C:\Git\TroubleshooterMods\Mods\TamingMaster\TamingMaster.jpg"
+	"visibility"		"2"
+	"title"		"Taming Master"
+	"description"		"Now the level of information about the creature will reduce the time required to tame it. The degree of influence is configured in the gameplay options."
+	"changenote"		"Initial version"
+}

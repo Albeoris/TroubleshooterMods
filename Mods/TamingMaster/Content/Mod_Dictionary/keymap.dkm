@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+	<entry key="GuideMessage/Albeoris_TamingMaster_InformationGradeRewardFormat/Title_Base" code="1" dic_type="Mod"/>
+	<entry key="OptionGameplay/Albeoris_TamingMaster_InformationInfluencesTamingPecent/Title" code="2" dic_type="Mod"/>
+	<entry key="OptionGameplay/Albeoris_TamingMaster_InformationInfluencesTamingPecent/Desc" code="3" dic_type="Mod"/>
+	<entry key="TamingTimeCondition/Albeoris_TamingMaster_CollectedInformation/Title" code="4" dic_type="Mod"/>
+</keymap>

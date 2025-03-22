@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idspace id="GuideMessage">
+	<class name="Albeoris_TamingMaster_InformationGradeRewardFormat" Title_Base="[!번역][!GuideMessage]Reduces taming time by %d %%"/>
+</idspace>
