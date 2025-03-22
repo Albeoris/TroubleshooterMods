@@ -47,8 +47,7 @@ GetTamingTimeCalculator = function(self, target, ability, abilityDetailInfo)
 	end
 		
 	-- Get troublemaker info grade
-	local session = GetSession();
-	local company = session.company_info;
+	local company = GetCompany_Shared(self);
 	local tm = company.Troublemaker[monster.OriginalType];
 	if not tm then
 		return totalTamingTime, info;
