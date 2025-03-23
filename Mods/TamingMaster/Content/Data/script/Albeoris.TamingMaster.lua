@@ -20,7 +20,11 @@ Albeoris.TamingMaster.Original = Albeoris.TamingMaster.Original or {};
 ---         The reduction fraction as a decimal (e.g., 0.75 means a 75% reduction applied).
 --------------------------------------------------------------------------------
 Albeoris.TamingMaster.CalculateTamingReductionFraction = function(infoGrade)
-	local modifierLimit = GetOption().Gameplay.Albeoris_TamingMaster_InformationInfluencesTamingPecent or 75; -- default value if not provided
+	
+	-- Not available on the server side 
+	-- local modifierLimit = GetOption().Gameplay.Albeoris_TamingMaster_InformationInfluencesTamingPecent or 75; -- default value if not provided
+	
+	local modifierLimit = 75;
 	local gradeToRatio = {
         [0] = 0.00,
         [1] = 0.01,

@@ -4,22 +4,6 @@
 		<schema>
 			<rule property="Order" type="number" default="-10000" autoincrement="true"/>
 		</schema>
-		<!-- <class name="Albeoris_TamingMaster" Title="[colour='FFFFE959']Mod: TamingMaster" Order="-1" Form="OptionSubGroup" Initializer="DACommonArgumentHolderInitializerForClass" Idspace="Albeoris_TamingMaster_OptionGameplay" Converter="OptionConverterSubGroup"> -->
-			<!-- <property name="ArgList" type="table" subtype="string" value="InformationInfluencesTaming, InformationInfluencesTamingPecent"/> -->
-		<!-- </class> -->
-		<!-- <class name="Albeoris_TamingMaster_InformationInfluencesTaming" Title="[!Option][colour='FFFFE959']Mod: [colour='FFFFFFFF']Beast info shortens taming time" Desc="[!번역][!Option]Enabling this option reduces taming time with each new info level." Form="OptionCheckboxLong" Initializer="OptionInitializerCheckbox" Default="true"/> -->
-		<class name="Albeoris_TamingMaster_InformationInfluencesTamingPecent" Title="[!번역][!Option][colour='FFFFE959']Mod: [colour='FFFFFFFF']Beast info shortens taming time (%)" Desc="[!번역][!Option]Max reduction percentage for taming time." Form="OptionSliderText" Initializer="OptionInitializeSlider" Min="0" Max="100" StepCount="100" Default="75"/>
+		<class name="Albeoris_TamingMaster_InformationInfluencesTamingPecent" Title="[!번역][!Option][colour='FFFFE959']Mod: [colour='FFFFFFFF']Beast info shortens taming time (%)" Desc="[!번역][!Option]Max reduction percentage for taming time." Form="OptionSliderText" Initializer="OptionInitializeSlider" Min="75" Max="75" StepCount="100" Default="75"/>
 	</idspace>
-	<!-- <idspace id="Albeoris_TamingMaster_OptionGameplay"> -->
-		<!-- <schema> -->
-			<!-- <rule property="Initializer" type="function" default="StageMakerArgumentBasicInitializer"/> -->
-			<!-- <rule property="Form" type="link" target="ArgumentForm"/> -->
-			<!-- <rule property="Converter" type="function"/> -->
-			<!-- <rule property="NoPreset" type="bool" default="false"/> -->
-			<!-- <rule property="Hidden" type="bool" default="false"/> -->
-			<!-- <rule property="Order" type="number" default="1" autoincrement="true"/> -->
-		<!-- </schema> -->
-		<!-- <class name="InformationInfluencesTaming" Title="Info affects taming" Desc="Enabling this option reduces taming time with each new info level." Form="OptionCheckboxLong" Initializer="OptionInitializerCheckbox" Default="true"/> -->
-		<!-- <class name="InformationInfluencesTamingPecent" Title="Influence Percentage" Desc="Max reduction percentage for taming time." Form="OptionSliderText" Initializer="OptionInitializeSlider" Min="0" Max="100" StepCount="100" Default="75"/> -->
-	<!-- </idspace> -->
 </idspaces>
